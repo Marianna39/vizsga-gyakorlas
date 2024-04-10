@@ -23,7 +23,7 @@ it('should contain the footer', () => {
   expect(footerElement.textContent).toMatch(/^Készítette:/i);
   expect(footerElement.tagName).toMatch(/^footer$/i);
 });
-
+ 
 it('should contain the header', () => {
   render(<App />);
   const headerElement = screen.getByRole('banner');

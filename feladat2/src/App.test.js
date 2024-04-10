@@ -71,3 +71,4 @@ it('shoud have a primary button', () => {
   expect(button.type).toBe('submit');
   expect(button.classList).toContain('btn-primary');
 });
+ 
